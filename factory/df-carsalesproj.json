@@ -1,0 +1,9 @@
+{
+	"name": "df-carsalesproj",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "15d357c2-6035-4f11-97fd-33053fd3028f",
+		"tenantId": "85d2ef66-ecac-41d7-b62a-3c6ef4272d6b"
+	}
+}
