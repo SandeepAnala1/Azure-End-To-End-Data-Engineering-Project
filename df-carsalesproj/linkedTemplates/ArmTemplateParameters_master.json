@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-carsalesproj"
+		},
+		"ABD_ls_accessToken": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_sqldb_password": {
+			"value": ""
+		},
+		"ABD_ls_properties_typeProperties_existingClusterId": {
+			"value": "0209-124308-whg8f6pv"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://newcarsalesadls.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_sqldb_properties_typeProperties_server": {
+			"value": "newcarsalesserver.database.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_database": {
+			"value": "newcarsalesdb"
+		},
+		"ls_sqldb_properties_typeProperties_userName": {
+			"value": "Sandy"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
