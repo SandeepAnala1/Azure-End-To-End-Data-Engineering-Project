@@ -41,6 +41,7 @@ The pipeline adheres to the **Medallion Architecture**, structured into three la
 - Applied **SCD Type 1** logic for dimension updates using PySpark.
 - Stored the modeled data in **Delta format** on ADLS for downstream analytics.
 
+![image](https://github.com/SandeepAnala1/Azure-End-To-End-Data-Engineering-Project/blob/main/images/AzureDataLake%20Containers.png)
 ---
 
 ### 🔄 Pipeline Implementation
@@ -56,6 +57,8 @@ The pipeline adheres to the **Medallion Architecture**, structured into three la
   - **Watermark Table** in SQL DB
   - Stored Procedures for updating watermark logic
   - Parameterized SQL queries to fetch only new data
+
+![image](https://github.com/SandeepAnala1/Azure-End-To-End-Data-Engineering-Project/blob/main/images/Pipelines/Incremental%20Pipeline/Azure%20Data%20Factory%20Incremental%20Pipeline.png)
 
 #### 3. Transformation (Databricks)
 - **Bronze to Silver**:
@@ -90,6 +93,8 @@ The pipeline adheres to the **Medallion Architecture**, structured into three la
 - Successfully delivered a **fully functional data pipeline** from ingestion to modeling
 - Implemented **incremental loading**, improving resource usage and processing efficiency
 - Built a **star schema** optimised for analytical querying and BI reporting
+![image](https://github.com/SandeepAnala1/Azure-End-To-End-Data-Engineering-Project/blob/main/images/Databricks/Databricks_Data%20Model_Workflow.png)
+
 - Implemented **Slowly Changing Dimensions (SCD Type 1)** for maintaining accurate and up-to-date dimensions
 - Leveraged **Unity Catalog** for structured data governance and access control
 - Enabled BI connectivity through **Power BI**, ready for enterprise reporting use cases
